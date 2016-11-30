@@ -1,0 +1,204 @@
+/*
+Theme Name: Twenty Sixteen Child
+Theme URI: https://wordpress.org/themes/twentysixteen/
+Author: xiaoren
+Author URI: https://wordpress.org/
+Description: Child theme for the themeTwenty Sixteen Ten  
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+@import url("../twentysixteen/style.css");
+
+/* header */
+body, button, input, select, textarea {
+    font-family: Merriweather, Georgia, serif;
+    font-size: 13px
+}
+
+#masthead{ 
+	border-bottom: 1px solid #686868;
+	padding: 10px 0;
+	background-color: #333;
+	margin: 0 auto
+	/* margin-top: 21px; */
+}
+
+/* header内容居中 */
+.site-header-main{
+	margin: 0 auto;
+	width: 1000px;
+	color: #fff
+}
+
+/* logo GainStrong文字颜色变为白色 */
+.site-branding .site-title a {
+    color: #fff
+}
+
+.main-navigation a {
+    color: #fff
+}
+
+p {
+    margin: 5px
+}
+
+.site-branding{
+	margin: 0
+}
+
+/* 文章内容 */
+#main{ 
+	margin-bottom: 0 ;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.site-header-menu{ 
+	margin: 0 auto
+ }
+
+.site-main > article {
+    margin-bottom: 20px
+}
+
+#main article{
+ 	margin-top: 0 
+}
+
+.site-header {
+    padding: 2.625em 7.6923%
+}
+
+body.custom-background {
+    /* background-color: #ffffff; */
+}
+
+#search{ padding-top: 45px ;padding-right: 50px}
+
+/* content */
+#content{ 
+	padding-bottom: 5px
+}
+
+/* footer */
+.site-info{ 
+	line-height: 50px;
+	text-align: center; 
+	margin: 0 auto
+}
+
+.site-title a{ 
+	text-align: center
+}
+
+#colophon{ 
+	padding-bottom: 0;
+	text-align: center
+	/*border-top: 1px solid #686868*/
+}
+
+.site-info a{ 
+	text-align: center
+}
+
+/* search */
+#search {
+    border-top:0
+}
+
+/* 去掉分类导航上面黑色的条条 */
+#secondary section.widget {
+    border-top: 0
+}
+
+/* 去掉category上面的padding*/
+.widget {
+	margin-bottom: 0;
+	padding-top: 0
+}
+
+hr{
+	margin: 0 0 5px 
+}
+
+.site-inner{
+	max-width: 1000px
+}
+
+/* 评论的提交按钮的margin */
+button, input, optgroup, select, textarea {
+    margin: 10px
+}
+
+/* search 框的样式margin设置 */
+button, input, optgroup, select, textarea {
+    margin: 0 0 10px 0
+}
+
+/* body背景颜色 */
+body.custom-background {
+    /* background-color: #ffffff; */
+}
+
+/* content index 插件的样式*/
+#content-index {
+    background: #f1f1f1;
+    border: 1px solid #dadada;
+    -webkit-border-radius: 3px;
+    float: right;
+    margin-left: 16px;
+    padding: 4px 20px;
+    margin-bottom: 12px;
+    font-size: 85%;
+    max-width: 30%
+}
+
+.content-index-title h2{ 
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 5%
+}
+
+.entry-title {
+    margin-bottom: 0
+}
+
+.entry-title h1{ 
+	font-size: 6px
+}
+
+/* 当浏览器缩小到一定宽度时候页面头部出现的导航按钮 */
+.menu-toggle {
+    color: #fff
+}
+
+/* 分类h2的margin-bottom */
+@media screen and (min-width: 56.875em){
+.widget .widget-title {
+    margin-bottom: 0
+}
+
+/* search框距离上边的padding-top */
+@media screen and (min-width: 56.875em){
+.sidebar {
+    padding-top: 18px;
+
+}
+
+
+@media screen and (min-width: 56.875em){
+.site-content {
+    padding: 0; 
+}
+
+.page-header {
+    border-top: 0;
+}
+
+/* 导航条链接成为focus焦点的时候字体颜色 */
+.main-navigation .current-menu-item > a,
+.main-navigation .current-menu-ancestor > a {
+	color: #3354aa;
+}
